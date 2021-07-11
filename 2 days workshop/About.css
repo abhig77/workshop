@@ -1,0 +1,69 @@
+.jis{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 0px 0px;
+    grid-gap: 50px;
+    grid-column-gap: 380px;
+    font-size: 20px;
+    background-color: rgb(134, 62, 194);
+  }
+  .grid-item1 a{
+    padding: 3px 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+
+
+.link{
+    text-decoration: none;
+    color: black;
+
+
+}
+.list-unstyled li a{
+    text-decoration: none;
+    color: black;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+.sol{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: 170px;
+    grid-column-gap: 70px;
+  
+}
+
+
+.deap{
+    display: grid;
+    grid-template-columns: repeat(2,700px);
+    grid-auto-rows: minmax(400px,auto);
+    grid-column-gap: 20px;
+
+}
+
+.grid-item1 a:hover{
+    color: rgb(236, 225, 225);
+    background-color: rgb(0, 0, 0);
+    border-radius: 14px;
+}
+
+/* 
+.container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+
+} */
+/* 
+.item{
+    height: 400px;
+    width: 800px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 3px;
+} */
